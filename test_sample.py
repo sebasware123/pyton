@@ -3,7 +3,7 @@ import numpy as np
 import pytest
 
 class Person:
-    name = "John"
+    name = "Johna"
     age = 36
     country = "Norway"
     
