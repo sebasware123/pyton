@@ -38,7 +38,7 @@ class TestClass:
         assert all([a == b for a, b in zip(actual, expected)])
 
     def func(x): 
-        return x + 1 
+        return x + 1
     
     def test_answer(self):
         assert TestClass.func(3) == 4
